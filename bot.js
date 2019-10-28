@@ -191,4 +191,4 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 جاري تشغيل: **${song.title}**`);
 }
 
-client.login(NjM4Mzg4OTY0Njc5NDgzMzkyXbcBMwF0PWmEuva4_ezRc7PmiEzBEt_H8);
+client.login(BOT_TOKEN);
