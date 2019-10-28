@@ -1,5 +1,5 @@
 const { Client, Util } = require('discord.js');
-const { TOKEN, 7, GOOGLE_API_KEY } = require('./config');
+const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
@@ -191,4 +191,4 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`🎶 جاري تشغيل: **${song.title}**`);
 }
 
-client.login(NjM4Mzg4OTY0Njc5NDgzMzky.XbcBMw.F0PWmEuva4_ezRc7PmiEzBEt_H8);
+client.login(NjM4Mzg4OTY0Njc5NDgzMzkyXbcBMwF0PWmEuva4_ezRc7PmiEzBEt_H8);
